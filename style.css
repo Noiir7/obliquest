@@ -1,0 +1,227 @@
+.toggle-btn {
+  font-family: inherit;
+}
+
+/* Monochrome arrows with gradients for each level */
+.category-header-level2 .toggle-btn {
+  background: linear-gradient(90deg, #222 0%, #666 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.category-header-level3 .toggle-btn {
+  background: linear-gradient(90deg, #444 0%, #888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.category-header-level4 .toggle-btn {
+  background: linear-gradient(90deg, #666 0%, #bbb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.category-header-level5 .toggle-btn {
+  background: linear-gradient(90deg, #888 0%, #eee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.toggle-btn {
+  font-family: inherit;
+}
+/* Miglioramenti mobile per toggle-btn e header */
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  color: #444;
+  margin-left: -0.2em;
+  margin-right: 0.7em;
+  padding: 0 0.2em;
+  min-width: 1.5em;
+  min-height: 1.5em;
+  line-height: 1.1;
+  display: inline-block;
+  vertical-align: middle;
+  touch-action: manipulation;
+}
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  padding-left: 0.1em;
+  padding-right: 0.2em;
+  min-height: 2.5em;
+  user-select: none;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.category-content {
+  margin-left: 0.5em;
+}
+
+@media (max-width: 599px) {
+  .category-header {
+    font-size: 1.08em;
+    min-height: 2.7em;
+    gap: 0;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .toggle-btn {
+    font-size: 1.7em;
+    min-width: 1.7em;
+    min-height: 1.7em;
+    padding: 0 0.1em;
+    margin-left: 0;
+    margin-right: 0.2em;
+  }
+  .category-content {
+    margin-left: 0.1em;
+  }
+}
+:root {
+  --padding: 1rem;
+  --font-size: 1rem;
+  --line-height: 1.6;
+}
+
+body {
+  font-family: sans-serif;
+  padding: var(--padding);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  margin-top: 2em;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.2em;
+}
+
+
+.quest {
+  margin: 0.5em 0;
+  display: block;
+}
+
+.quest input[type="checkbox"] {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.6em;
+  vertical-align: middle;
+}
+
+label {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.quest-desc {
+  font-size: 0.97em;
+  color: #666;
+  margin-left: 2.1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+  line-height: 1.5;
+  word-break: break-word;
+}
+.progress-container {
+  margin: 1.5em 0;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+}
+
+.controls {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.footer {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.ko-fi-button {
+  display: inline-block;
+  margin-top: 1em;
+  text-decoration: none;
+  background: #29abe0;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 600px) {
+  body {
+    max-width: 700px;
+  }
+  button {
+    flex-grow: 0;
+  }
+}
+
+@media (max-width: 599px) {
+  body {
+    padding: 0.5rem;
+  }
+  .quest-desc {
+    font-size: 0.98em;
+    margin-left: 1.5em;
+    line-height: 1.5;
+  }
+  .quest label {
+    font-size: 1em;
+  }
+  .controls {
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  button {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+  .progress-container {
+    margin: 1em 0;
+  }
+}

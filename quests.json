@@ -1,0 +1,311 @@
+{
+  "Main Quests": [
+    {"name": "Tutorial", "desc": "Escape the prison via the secret sewer route."},
+    {"name": "Deliver the Amulet", "desc": "Take the Amulet of Kings to Jauffre at Weynon Priory."},
+    {"name": "Find the Heir", "desc": "Travel to Kvatch to locate the last heir."},
+    {"name": "Breaking the Siege of Kvatch", "desc": "Help repel the Daedra siege on Kvatch."},
+    {"name": "The Battle for Castle Kvatch (Optional)", "desc": "Attempt to rescue the Count and clear remaining Daedra in Kvatch."},
+    {"name": "Weynon Priory", "desc": "Return to Weynon Priory with Martin."},
+    {"name": "The Path of Dawn", "desc": "Return to the Imperial City and meet Baurus to pursue the stolen amulet."},
+    {"name": "Dagon Shrine", "desc": "Infiltrate the Mythic Dawn shrine."},
+    {"name": "Attack on Fort Sutch (Optional)", "desc": "Assist soldiers in closing an Oblivion Gate (non‑journal quest)."},
+    {"name": "Spies", "desc": "Track down Mythic Dawn spies near Cloud Ruler Temple."},
+    {"name": "Blood of the Daedra", "desc": "Retrieve a Daedric artifact for Martin (a Daedric quest)."},
+    {"name": "Blood of the Divines", "desc": "Bring Martin the divine blood of a god."},
+    {"name": "Bruma Gate", "desc": "Help Bruma's guards close an Oblivion Gate at Bruma."},
+    {"name": "Allies for Bruma (Optional)", "desc": "Recruit reinforcements from nearby towns for Bruma."},
+    {"name": "Miscarcand", "desc": "Recover a Great Welkynd Stone for Martin."},
+    {"name": "Defense of Bruma", "desc": "Allow a Great Oblivion Gate to open near Bruma."},
+    {"name": "Great Gate", "desc": "Find and close the Great Gate before the Daedra siege engine arrives."},
+    {"name": "Paradise", "desc": "Enter Mankar’s Paradise and retrieve the Amulet of Kings."},
+    {"name": "Light the Dragonfires", "desc": "Escort Martin to the Temple of the One and crown him Emperor."},
+    {"name": "Imperial Dragon Armor", "desc": "Receive your reward for completing the questline."}
+  ],
+  "Side Quests": {
+  "Main Cities Quests": [
+      {"name": "A Brotherhood Betrayed", "desc": "Investigate a suspicious vampire killing in Cheydinhal."},
+      {"name": "A Brush with Death", "desc": "Rescue a painter trapped in his own artwork."},
+      {"name": "A Shadow Over Hackdirt", "desc": "Find the missing daughter of a local merchant."},
+      {"name": "An Unexpected Voyage", "desc": "Survive a hijacking aboard the Bloated Float Inn."},
+      {"name": "Buy a house in the Imperial City", "desc": "Purchase a shack in the Waterfront District."},
+      {"name": "Buying a house in Bravil", "desc": "Purchase a modest canal-side home."},
+      {"name": "Buying a house in Bruma", "desc": "Buy a traditional-style home in the north."},
+      {"name": "Buying a house in Cheydinhal", "desc": "Purchase a standard home in the western district."},
+      {"name": "Buying a house in Chorrol", "desc": "Purchase Arborwatch, a luxurious home."},
+      {"name": "Buying a house in Leyawiin", "desc": "Purchase a modest home in the city center."},
+      {"name": "Buying a house in Skingrad", "desc": "Purchase Rosethorn Hall, a grand manor."},
+      {"name": "Canvas the Castle", "desc": "Solve the theft of a valuable painting in Castle Chorrol."},
+      {"name": "Caught in the Hunt", "desc": "Find a missing man last seen near Bravil."},
+      {"name": "Corruption and Conscience", "desc": "Expose a corrupt city guard in Cheydinhal."},
+      {"name": "Helping Hands", "desc": "Hire a servant to maintain your home in Skingrad."},
+      {"name": "Imperial Corruption", "desc": "Uncover corruption within the Imperial Guard."},
+      {"name": "Knights of the White Stallion", "desc": "Join a knightly order by defeating a criminal."},
+      {"name": "Legacy Lost", "desc": "Reunite long-lost twin brothers and their home."},
+      {"name": "Lifting the Vale", "desc": "Recover a lost artifact for Bruma’s countess."},
+      {"name": "Mazoga the Orc", "desc": "Help a would-be knight prove her valor."},
+      {"name": "Nothing You Can Possess", "desc": "Retrieve an Ayleid relic for a collector."},
+      {"name": "Order of the Virtuous Blood", "desc": "Hunt a vampire threatening the city."},
+      {"name": "Origin of the Gray Prince", "desc": "Trace the Arena Champion’s mysterious past."},
+      {"name": "Paranoia", "desc": "Assist a paranoid citizen with his suspicions."},
+      {"name": "Raid on Greyland", "desc": "Help eliminate a drug trafficker near Leyawiin."},
+      {"name": "Secrets of the Ayleids", "desc": "Acquire a crown for a rival Ayleid artifact collector."},
+      {"name": "Seeking Your Roots", "desc": "Investigate the mysterious Nirnroot plant."},
+      {"name": "Separated at Birth", "desc": "Explore rumors about a man’s strange behavior."},
+      {"name": "Sins of the Father", "desc": "Recover an heirloom from a thief’s past."},
+      {"name": "Tears of the Savior", "desc": "Search for rare magical crystals in snowy terrain."},
+      {"name": "The Collector", "desc": "Recover ancient Ayleid statues for Umbacano."},
+      {"name": "The Forlorn Watchman", "desc": "Lay the ghost of a sailor to rest."},
+      {"name": "The Ghost Ship of Anvil", "desc": "Recover a crystal ball from a haunted vessel."},
+      {"name": "The Killing Field", "desc": "Help defend a farm from monster attacks."},
+      {"name": "The Rosethorn Cache", "desc": "Search for hidden treasure in Skingrad."},
+      {"name": "The Siren's Deception", "desc": "Uncover a gang luring men to their doom."},
+      {"name": "The Wayward Knight", "desc": "Escort a noble through an Oblivion gate."},
+      {"name": "Through A Nightmare, Darkly", "desc": "Rescue a friend from a magical coma."},
+      {"name": "Two Sides of the Coin", "desc": "Find hidden gold tied to an old crime."},
+      {"name": "Unfriendly Competition", "desc": "Investigate suspicious pricing in the market."},
+      {"name": "Vampire Cure", "desc": "Complete a long quest to cure vampirism."},
+      {"name": "Where Spirits Have Lease", "desc": "Buy a large haunted house on the cheap."},
+      {"name": "Whom Gods Annoy", "desc": "Help banish strange beings plaguing a resident."}
+    ],
+  "Settlement Quests": [
+      {"name": "A Venerable Vintage", "desc": "Collect rare Tamika vintage wine bottles for an enthusiast."},
+      {"name": "Bear Season", "desc": "Hunt bears threatening a farmer's livestock."},
+      {"name": "Go Fish", "desc": "Collect Rumare Slaughterfish scales to help fund a retiree's future."},
+      {"name": "Goblin Trouble", "desc": "Resolve a goblin war disrupting a village."},
+      {"name": "No Stone Unturned", "desc": "Retrieve lost research notes for a sorcerer."},
+      {"name": "Revenge Served Cold", "desc": "Help a farmer take revenge on goblins that attacked his home."},
+      {"name": "The Gravefinder's Repose", "desc": "Deal with a necromancer causing trouble near an inn."},
+      {"name": "The Potato Snatcher", "desc": "Recover stolen potatoes for a distressed Khajiit."},
+      {"name": "The Sunken One", "desc": "Investigate the mystery of an abandoned farmhouse."},
+      {"name": "When the Vow Breaks", "desc": "Recover a family heirloom for a heartbroken wife."},
+      {"name": "Zero Visibility", "desc": "Help make the invisible villagers of Aleswell visible again."}
+    ],
+  "Hidden Quests": [
+      {"name": "A Ring of Keys", "desc": "Follow a Pale Pass treasure hunt that leads to a magical ring hidden by a thief."},
+      {"name": "Attack on Fort Sutch", "desc": "Assist soldiers in closing an Oblivion Gate near Fort Sutch."},
+      {"name": "Bittneld and Emfrid", "desc": "Help bring two lonely NPCs together in a subtle matchmaking quest."},
+      {"name": "Black Bow Bandits", "desc": "Join Mazoga the Orc in hunting bandits without journal updates."},
+      {"name": "Heaven Stones", "desc": "Find special stones across Cyrodiil to gain permanent powers."},
+      {"name": "Illegal Cargo", "desc": "Uncover and stop a secret sheep smuggling operation at a docked ship."},
+      {"name": "Lich of Lost Boy Cavern", "desc": "Unravel the story of a tragic mage and his cursed friend."},
+      {"name": "The Horror of Dive Rock", "desc": "Defeat the terrifying Uderfrykte Matron near Dive Rock."},
+      {"name": "The Pilgrimage of the Nine Divines", "desc": "Visit all wayshrines to show your devotion to the Nine Divines."},
+      {"name": "The Unbeaten Path", "desc": "Solve a treasure hunt using cryptic clues and a unique sword."},
+      {"name": "Unwanted TenantsFS", "desc": "Cleanse your new house of two ghostly or spectral squatters."}
+    ],
+  "Official Download Quests": [
+      {"name": "Battlehorn Castle", "desc": "Defend and inherit a castle from marauders."},
+      {"name": "Deepscorn Hollow", "desc": "Acquire a hidden sanctuary tailored for evil characters."},
+      {"name": "Dunbarrow Cove", "desc": "Unlock a pirate's lost cove and turn it into a base of operations."},
+      {"name": "Frostcrag Spire", "desc": "Claim a mountaintop wizard tower as your magical home."},
+      {"name": "Horse Armor", "desc": "Purchase protective armor for your horse."},
+      {"name": "Repairing the Orrery", "desc": "Reconstruct a ruined orrery to gain a unique power."},
+      {"name": "Unearthing Mehrunes Razor", "desc": "Explore a deep, dangerous dungeon to retrieve a powerful dagger."}
+    ]
+  },
+  "Faction Quests": {
+  "Fighters Guild Quests": {
+      "Azzan's Quests - Anvil": [
+        {"name": "A Rat Problem", "desc": "Azzan in Anvil wants you to see Arvena Thelas regarding a rat problem in her basement."},
+        {"name": "The Unfortunate Shopkeeper", "desc": "Stop some thieves from robbing a local shopkeeper."},
+        {"name": "Den of Thieves", "desc": "A gang of Bosmer thieves has been causing some problems around Anvil."},
+        {"name": "The Wandering Scholar", "desc": "Elante of Alinor wishes to study a Daedric shrine and needs protection."},
+        {"name": "The Stone of St. Alessia", "desc": "The Stone of St. Alessia has been stolen from the Chapel of Talos in Bruma."}
+      ],
+      "Burz gro-Khash's Quests - Cheydinhal": [
+        {"name": "The Desolate Mine", "desc": "Deliver a weapons shipment to the Desolate Mine."},
+        {"name": "Amelion's Debt", "desc": "Help Biene Amelion satisfy a debt by retrieving an heirloom."},
+        {"name": "The Fugitives", "desc": "Find and kill some fugitives that have been causing trouble near Bravil."},
+        {"name": "The Noble's Daughter", "desc": "Find Lord Rugdumph gro-Shurgak's missing daughter."},
+        {"name": "Mystery at Harlun's Watch", "desc": "Investigate the disappearance of some locals from Harlun's Watch."}
+      ],
+      "Modryn Oreyn's Quests - Chorrol": [
+        {"name": "Unfinished Business", "desc": "Travel to Skingrad to find out why Maglir has defaulted on a contract."},
+        {"name": "Drunk and Disorderly", "desc": "Find out why several of your guildmates are causing trouble in Leyawiin."},
+        {"name": "The Master's Son", "desc": "The Fighters Guild has been hired to find Galtus Previa, and Viranus Donton needs a confidence boost."},
+        {"name": "More Unfinished Business", "desc": "Find out why a guild member has defaulted on yet another contract in Bravil."},
+        {"name": "Azani Blackheart", "desc": "Help Modryn prove that the Blackwood Company lied about completing a contract to kill Azani Blackheart."},
+        {"name": "Trolls of Forsaken Mine", "desc": "Viranus Donton and some Fighters Guild members were sent to eliminate trolls at Forsaken Mine, and now you must find them."},
+        {"name": "Information Gathering", "desc": "Bring Ajum-Kajin - a high-ranking Blackwood Company member - back to Modryn and 'persuade' him to talk."},
+        {"name": "Infiltration", "desc": "Deceive your way into the Blackwood Company and discover why they are so powerful... or so crazy."},
+        {"name": "The Hist", "desc": "Return to Blackwood Company headquarters to destroy the source of their power and anyone that stands in your way."}
+      ],
+      "Other Quests": [
+        {"name": "Expelled from the Fighters Guild", "desc": "Regain your place among the elite fighters of Cyrodiil."}
+      ]
+    },
+    "Mages Guild Quests": {
+      "Joining": [
+        {"name": "Join the Mages Guild", "desc": "Join the Mages Guild and earn recommendations from all guild leaders to gain access to the Arcane University."}
+      ],
+      "Recommendation Quests": [
+        {"name": "Anvil Recommendation", "desc": "Investigate a number of deaths along the Gold Road to obtain a recommendation from Anvil."},
+        {"name": "Bravil Recommendation", "desc": "Recover a fellow mage's staff to obtain a recommendation from Bravil."},
+        {"name": "Bruma Recommendation", "desc": "Find a missing mage to obtain a recommendation from Bruma."},
+        {"name": "Cheydinhal Recommendation", "desc": "Recover a lost ring to obtain a recommendation from Cheydinhal."},
+        {"name": "Chorrol Recommendation", "desc": "Sort out a problem with a former guild member to obtain a recommendation from Chorrol."},
+        {"name": "Leyawiin Recommendation", "desc": "Help a mage regain her sanity to obtain a recommendation from Leyawiin."},
+        {"name": "Skingrad Recommendation", "desc": "Find a missing mage to obtain a recommendation from Skingrad."}
+      ],
+      "Raminus Polus's Quests": [
+        {"name": "A Mage's Staff", "desc": "Complete your induction into the Mages Guild by creating your own staff."},
+        {"name": "Ulterior Motives", "desc": "Retrieve a book from the Count of Skingrad."},
+        {"name": "Vahtacen's Secret", "desc": "Find out how the Mages Guild's excavation of Vahtacen is faring."},
+        {"name": "Necromancer's Moon", "desc": "Find out about Black Soul Gems."}
+      ],
+      "Hannibal Traven's Quests": [
+        {"name": "Liberation or Apprehension?", "desc": "Locate a Necromancer informant and return him safely to the Arcane University."},
+        {"name": "Information at a Price", "desc": "Travel to Skingrad to receive information from Count Hassildor... at a price."},
+        {"name": "A Plot Revealed", "desc": "Travel to Bruma and find out why the Mages Guild there has stopped correspondence."},
+        {"name": "The Necromancer's Amulet", "desc": "Find the Necromancer's Amulet and return it to the Arcane University."},
+        {"name": "The Bloodworm Helm", "desc": "Find the Bloodworm Helm and return it to the Arcane University."},
+        {"name": "Ambush", "desc": "Oversee a contingent of Battlemages in their fight against the Necromancers and retrieve a unique Black Soul Gem."},
+        {"name": "Confront the King", "desc": "Find the King of Worms and end the Necromancers' attacks on the Mages Guild."}
+      ],
+      "Other Quests": [
+        {"name": "Alchemy Acquisitions", "desc": "Use the expertise of Julienne Fanis for your own benefit."},
+        {"name": "Mages Guild Suspension", "desc": "Collect alchemy samples to regain your guild membership."}
+      ]
+    },
+    "Thieves Guild Quests": {
+      "Armand Christophe's Quests": [
+        {"name": "Finding the Thieves Guild", "desc": "So you want to join the Thieves Guild? Don't you know it doesn't even exist?"},
+        {"name": "May the Best Thief Win", "desc": "You want to join, but are you a good enough thief?"},
+        {"name": "Untaxing the Poor", "desc": "Steal the tax records for the Waterfront residents."},
+        {"name": "The Elven Maiden", "desc": "Steal a statuette for a mystery buyer."}
+      ],
+      "S'Krivva's Quests": [
+        {"name": "Ahdarji's Heirloom", "desc": "Recover a ring stolen by a freelance thief."},
+        {"name": "Misdirection", "desc": "Help the Thieves Guild get the waterfront back to normal."},
+        {"name": "Lost Histories", "desc": "Finish a job from which a guildmate has not returned."},
+        {"name": "Taking Care of Lex", "desc": "Get Hieronymus Lex reassigned."}
+      ],
+      "Gray Fox's Quests": [
+        {"name": "Turning a Blind Eye", "desc": "Steal a stone for the Gray Fox."},
+        {"name": "Arrow of Extrication", "desc": "Steal an arrow for the Gray Fox."},
+        {"name": "Boots of Springheel Jak", "desc": "Find out where Springheel Jak is buried and retrieve a pair of magical boots for the Gray Fox."},
+        {"name": "The Ultimate Heist", "desc": "Steal an Elder Scroll for the Gray Fox, and for glory!"}
+      ],
+      "Other Quests": [
+        {"name": "Independent Thievery", "desc": "Steal as much as you can, and sell it to a Thieves Guild fence."},
+        {"name": "Cast out of the Thieves Guild", "desc": "Regain your honor among thieves."}
+      ]
+    },
+    "Dark Brotherhood Quests": {
+      "Initiation Quest": [
+        {"name": "A Knife in the Dark", "desc": "Prove yourself to the Brotherhood by murdering any NPC."}
+      ],
+      "Vicente Valtieri's Quests": [
+        {"name": "A Watery Grave", "desc": "Assassinate the pirate captain of the Marie Elena."},
+        {"name": "Accidents Happen", "desc": "Eliminate a target in Bruma via an 'accident.'"},
+        {"name": "Scheduled for Execution", "desc": "Kill a prisoner in the Imperial City."},
+        {"name": "The Assassinated Man", "desc": "Help Francois Motierre fake his death."}
+      ],
+      "Ocheeva's Quests": [
+        {"name": "The Lonely Wanderer", "desc": "Assassinate a High Elf in the Imperial City."},
+        {"name": "Bad Medicine", "desc": "Poison a sick warlord to end his life."},
+        {"name": "Whodunit?", "desc": "Eliminate multiple guests at a manor undetected."},
+        {"name": "Permanent Retirement", "desc": "Assassinate a retired Imperial officer."}
+      ],
+      "Lucien Lachance's Quest": [
+        {"name": "The Purification", "desc": "Kill all members of the Cheydinhal Sanctuary."}
+      ],
+      "Dead Drop Quests (Black Hand)": [
+        {"name": "Affairs of a Wizard", "desc": "Kill a necromancer seeking immortality."},
+        {"name": "Next of Kin", "desc": "Eliminate every member of a noble bloodline."},
+        {"name": "Broken Vows", "desc": "Assassinate a rival assassin beneath Castle Skingrad."},
+        {"name": "Final Justice", "desc": "Kill a known psychotic hiding under a bridge."},
+        {"name": "A Matter of Honor", "desc": "Ambush a powerful Dunmer mage in the forest."},
+        {"name": "The Coldest Sleep", "desc": "Find and kill a fugitive Nord at Gnoll Mountain."},
+        {"name": "A Kiss Before Dying", "desc": "Kill a target under the Lucky Old Lady statue in Bravil."}
+      ],
+      "Lucien Lachance's Quest #2": [
+        {"name": "Following a Lead", "desc": "Investigate betrayals and unravel the Brotherhood’s internal sabotage."}
+      ],
+      "Black Hand Quests": [
+        {"name": "Honor Thy Mother", "desc": "Uncover and eliminate the traitor within the Black Hand."},
+        {"name": "Whispers of Death", "desc": "Accept Listener duties and receive contracts indefinitely."}
+      ],
+      "Non-Contract Quests": [
+        {"name": "The Renegade Shadowscale", "desc": "Hunt down a fugitive Argonian assassin named Scar-Tail."},
+        {"name": "Darkness Eternal", "desc": "Choose to become a vampire by Vicente's offer."},
+        {"name": "A Dark Exile", "desc": "Defeat the Wrath of Sithis after breaking a Tenet once."},
+        {"name": "Another Dark Exile", "desc": "Face the Wrath again after a second Tenet violation."},
+        {"name": "Eternal Exile", "desc": "Final expulsion after breaking Tenets repeatedly and being defeated by the Wrath."}
+      ]
+    }
+  },
+  "Daedric Quests": [
+    {"name": "Azura's Star", "desc": "Help Azura's followers by eliminating her cursed worshippers in Gutted Mine."},
+    {"name": "Boethiah's Calling", "desc": "Participate in a deadly tournament to prove your worth to Boethiah."},
+    {"name": "A Daedra's Best Friend", "desc": "Decide the fate of the sword Umbra and its companion Barbas."},
+    {"name": "Ill Met by Moonlight", "desc": "Choose between obtaining the Ring of Hircine or the Savior's Hide by dealing with the werewolf Sinding."},
+    {"name": "The Cursed Tribe", "desc": "Free ogres enslaved by a noble to earn Malacath's favor."},
+    {"name": "Mephala's Web", "desc": "Incite conflict within a village to please Mephala."},
+    {"name": "The Only Cure", "desc": "Destroy necromancers in Howling Cave to cleanse the area."},
+    {"name": "The Cold Flame of Agnon", "desc": "Corrupt a man into committing murder to gain Molag Bal's favor."},
+    {"name": "The Taste of Death", "desc": "Prove your repulsiveness to Namira by performing unsavory deeds."},
+    {"name": "The Black Star", "desc": "Decide between Azura's Star and the Black Star by aiding a former follower."},
+    {"name": "Peryite's Challenge", "desc": "Cleanse a cave of vermin to earn Peryite's favor."},
+    {"name": "Sheogorath's Shrine", "desc": "Complete a series of chaotic tasks to please Sheogorath."},
+    {"name": "Vaermina's Torment", "desc": "Steal a valuable artifact from a sleeping noble to satisfy Vaermina."},
+    {"name": "Hermaeus Mora's Shrine", "desc": "Retrieve a forbidden tome to gain Hermaeus Mora's favor."},
+    {"name": "Azura's Quest", "desc": "Descrizione placeholder."},
+    {"name": "Boethia's Quest", "desc": "Descrizione placeholder."},
+    {"name": "Clavicus Vile's Quest", "desc": "Descrizione placeholder."},
+    {"name": "Sheogorath's Quest", "desc": "Descrizione placeholder."}
+  ],
+  "Knights of the Nine (DLC)": [
+    {"name": "Pilgrimage", "desc": "Complete the Pilgrimage of the Nine Divines to show that you are worthy."},
+    {"name": "The Shrine of the Crusader", "desc": "Retrieve the Helm of the Crusader from Pelinal's lost shrine."},
+    {"name": "Priory of the Nine", "desc": "Retrieve the Cuirass of the Crusader from the Priory of the Nine."},
+    {"name": "Nature's Fury", "desc": "Retrieve the Boots of the Crusader from the Shrine of Kynareth."},
+    {"name": "The Path of the Righteous", "desc": "Retrieve the Mace of Zenithar from the Chapel of Zenithar in Leyawiin."},
+    {"name": "Wisdom of the Ages", "desc": "Retrieve the Shield of the Crusader from Fort Bulwark."},
+    {"name": "Stendarr's Mercy", "desc": "Retrieve the Gauntlets of the Crusader from the Chapel of Stendarr in Chorrol."},
+    {"name": "The Faithful Squire", "desc": "Retrieve the Greaves of the Crusader from Lathon."},
+    {"name": "The Sword of the Crusader", "desc": "Retrieve the Sword of the Crusader and reconsecrate it."},
+    {"name": "The Blessing of Talos", "desc": "Obtain the ninth relic: The Blessing of Talos."},
+    {"name": "Umaril the Unfeathered", "desc": "Defeat Umaril and kill him for good, in both the physical and spiritual planes."}
+  ],
+  "Shivering Isles (DLC)": [
+    {"name": "Main Quest", "desc": "Embark on a journey to become Sheogorath's successor and prevent the impending crisis in the Shivering Isles."},
+    {"name": "Bliss Quests", "desc": "A series of quests beginning in Bliss, involving tasks in the realm of Mania."},
+    {"name": "Crucible Quests", "desc": "A series of quests starting in Crucible, focusing on challenges in the realm of Dementia."},
+    {"name": "Everything In Its Place", "desc": "Liberate a farm's Khajiit workers from the 'cruel mind control' of their overseer."},
+    {"name": "Ghosts of Vitharn", "desc": "Set things right for the ghosts of a fallen castle."},
+    {"name": "The Great Divide", "desc": "Resolve the 'trouble of doubles' in a peculiar situation."},
+    {"name": "Taxonomy of Obsession", "desc": "Assist a Dunmer in completing her research."},
+    {"name": "To Help A Hero", "desc": "Retrieve the stolen medallion of a Knight of the Thorn."}
+  ],
+  "Master Training Quests": [
+    {"name": "Acrobatics Training", "desc": "Train with Ida Vlinorman in the Imperial City or Quill-Weave in Anvil to master Acrobatics."},
+    {"name": "Alchemy Training", "desc": "Learn advanced Alchemy techniques from Sinderion in Skingrad."},
+    {"name": "Alteration Training", "desc": "Study under the guidance of Phinis Gestor at the Arcane University."},
+    {"name": "Armorer Training", "desc": "Receive expert training in Armorer from Ghorza gra-Bagol in Orsinium."},
+    {"name": "Athletics Training", "desc": "Prove your endurance to Honditar in Chorrol or Hauls-Ropes-Faster in Anvil."},
+    {"name": "Blade Training", "desc": "Enhance your swordsmanship with Agronak gro-Mak in the Imperial City."},
+    {"name": "Block Training", "desc": "Master the art of blocking with Burz gro-Khash in Cheydinhal."},
+    {"name": "Blunt Training", "desc": "Refine your skills with blunt weapons under the tutelage of Modryn Oreyn in Chorrol."},
+    {"name": "Conjuration Training", "desc": "Learn advanced Conjuration spells from Olyn Seran in the Imperial City."},
+    {"name": "Destruction Training", "desc": "Study destructive magic with Falcar at the Arcane University."},
+    {"name": "Hand to Hand Training", "desc": "Improve your unarmed combat skills with Gromm in the Imperial City."},
+    {"name": "Heavy Armor Training", "desc": "Train in Heavy Armor techniques with Varnado in the Imperial City."},
+    {"name": "Illusion Training", "desc": "Enhance your Illusion magic under the guidance of Dreth in the Imperial City."},
+    {"name": "Light Armor Training", "desc": "Master Light Armor usage with J'bari in Leyawiin."},
+    {"name": "Marksman Training", "desc": "Refine your archery skills with Aleron Loche in the Imperial City."},
+    {"name": "Mercantile Training", "desc": "Learn advanced trading techniques from Palonirya in the Imperial City."},
+    {"name": "Mysticism Training", "desc": "Study Mysticism with Tolfdir at the Arcane University."},
+    {"name": "Restoration Training", "desc": "Achieve mastery in Restoration magic with Marz or Ohtesse in Kvatch."},
+    {"name": "Security Training", "desc": "Learn advanced lockpicking and trap disarming from J'baana in the Imperial City."},
+    {"name": "Sneak Training", "desc": "Enhance your stealth abilities with Marana Rian in the Imperial City."},
+    {"name": "Speechcraft Training", "desc": "Master the art of persuasion with Amusei in the Imperial City."}
+  ]
+  ,
+  "Deluxe Edition Quests": [
+    {"name": "A Wound In Time", "desc": "Investigate a series of kidnappings on the Gold Coast."},
+    {"name": "Saving Time Itself", "desc": "Recover a stolen Elder Scroll for the Order of the Hour."},
+    {"name": "Burning Trail", "desc": "Follow a series of notes left by the Mythic Dawn."},
+    {"name": "The Crimson Cave", "desc": "Attend a secret meeting of the Mythic Dawn."}
+  ]
+}
