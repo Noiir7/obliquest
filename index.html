@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oblivion Quest Checklist</title>
+  <style>
+    :root {
+      --padding: 1rem;
+      --font-size: 1rem;
+      --line-height: 1.6;
+    }
+
+    body {
+      font-family: sans-serif;
+      padding: var(--padding);
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 0.5em;
+    }
+
+    h2 {
+      margin-top: 2em;
+      font-size: 1.2em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.2em;
+    }
+
+    .quest {
+      margin: 0.5em 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .quest input[type="checkbox"] {
+      width: 1.2em;
+      height: 1.2em;
+      margin-right: 0.6em;
+      flex-shrink: 0;
+    }
+
+    label {
+      cursor: pointer;
+    }
+
+    .progress-container {
+      margin: 1.5em 0;
+    }
+
+    progress {
+      width: 100%;
+      height: 20px;
+    }
+
+    .controls {
+      margin-top: 2em;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    button {
+      font-size: 1rem;
+      padding: 0.5em 1em;
+      cursor: pointer;
+      flex-grow: 1;
+    }
+
+    .footer {
+      margin-top: 3em;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .ad-placeholder {
+      margin: 2em auto 1em;
+      padding: 1em;
+      border: 2px dashed #ccc;
+      text-align: center;
+      color: #aaa;
+      font-size: 0.95em;
+    }
+
+    .coffee-button {
+      display: inline-block;
+      margin-top: 1em;
+      text-decoration: none;
+      background: #ffdd00;
+      color: #000;
+      font-weight: bold;
+      padding: 0.6em 1em;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    @media (min-width: 600px) {
+      body {
+        max-width: 700px;
+      }
+
+      button {
+        flex-grow: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Oblivion Quest Checklist</h1>
+
+  <div class="progress-container">
+    <label>Progress: <span id="progress-text">0%</span></label>
+    <progress id="progress-bar" value="0" max="100"></progress>
+  </div>
+
+  <div id="quest-list"></div>
+
+  <div class="controls">
+    <button onclick="exportProgress()">Export Progress</button>
+    <button onclick="importProgress()">Import Progress</button>
+    <input type="file" id="import-file" accept=".json" style="display:none;">
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <div class="ad-placeholder">
+      [Ad Placeholder – Insert banner code here later]
+    </div>
+
+    <a href="https://www.buymeacoffee.com/YOUR_USERNAME" target="_blank" class="coffee-button">
+      ☕ Buy Me a Coffee
+    </a>
+  </div>
+
+  <script>
+    const STORAGE_KEY = 'oblivionChecklistProgress';
+
+    const QUEST_DATA = {
+      "Main Quests": [
+        "Deliver the Amulet",
+        "Find the Heir",
+        "Breaking the Siege of Kvatch",
+        "The Path of Dawn",
+        "Dagon Shrine",
+        "Light the Dragonfires"
+      ],
+      "Side Quests": [
+        "A Brush with Death",
+        "The Siren's Deception",
+        "An Unexpected Voyage",
+        "The Collector"
+      ],
+      "Guild Quests": [
+        "Join the Fighters Guild",
+        "Join the Mages Guild",
+        "Join the Thieves Guild",
+        "Join the Dark Brotherhood"
+      ],
+      "Daedric Quests": [
+        "Azura's Quest",
+        "Boethia's Quest",
+        "Clavicus Vile's Quest",
+        "Sheogorath's Quest"
+      ],
+      "Knights of the Nine (DLC)": [
+        "Pilgrimage",
+        "Nature's Fury",
+        "The Shrine of the Crusader",
+        "The Sword of the Crusader"
+      ],
+      "Shivering Isles (DLC)": [
+        "A Door in Niben Bay",
+        "Through the Fringe of Madness",
+        "Baiting the Trap",
+        "The Helpless Army",
+        "The End of Order"
+      ]
+    };
+
+    function generateChecklist() {
+      const container = document.getElementById('quest-list');
+      container.innerHTML = '';
+      for (const [category, quests] of Object.entries(QUEST_DATA)) {
+        const section = document.createElement('section');
+        const header = document.createElement('h2');
+        header.textContent = category;
+        section.appendChild(header);
+
+        quests.forEach((quest, i) => {
+          const id = `${category}-${i}`.replace(/\s+/g, '-').toLowerCase();
+          const div = document.createElement('div');
+          div.className = 'quest';
+          const label = document.createElement('label');
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.dataset.id = id;
+          label.appendChild(checkbox);
+          label.append(` ${quest}`);
+          div.appendChild(label);
+          section.appendChild(div);
+        });
+
+        container.appendChild(section);
+      }
+
+      document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+        cb.addEventListener('change', saveProgress);
+      });
+
+      loadProgress();
+    }
+
+    function saveProgress() {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      const progress = {};
+      checkboxes.forEach(cb => {
+        progress[cb.dataset.id] = cb.checked;
+      });
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+      updateProgressBar();
+    }
+
+    function loadProgress() {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (!saved) return;
+      const progress = JSON.parse(saved);
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      checkboxes.forEach(cb => {
+        cb.checked = progress[cb.dataset.id] || false;
+      });
+      updateProgressBar();
+    }
+
+    function updateProgressBar() {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      const total = checkboxes.length;
+      const checked = [...checkboxes].filter(cb => cb.checked).length;
+      const percent = Math.round((checked / total) * 100);
+      document.getElementById('progress-bar').value = percent;
+      document.getElementById('progress-text').textContent = percent + '%';
+    }
+
+    function exportProgress() {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      const progress = {};
+      checkboxes.forEach(cb => {
+        progress[cb.dataset.id] = cb.checked;
+      });
+
+      const json = JSON.stringify(progress, null, 2);
+      const blob = new Blob([json], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'oblivion-progress.json';
+      a.style.display = 'none';
+      document.body.appendChild(a);
+
+      setTimeout(() => {
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, 0);
+    }
+
+    function importProgress() {
+      const input = document.getElementById('import-file');
+      input.value = '';
+      input.click();
+      input.onchange = function(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            const data = JSON.parse(e.target.result);
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(cb => {
+              cb.checked = !!data[cb.dataset.id];
+            });
+            saveProgress();
+          } catch (err) {
+            alert('Invalid JSON file.');
+          }
+        };
+        reader.readAsText(file);
+      };
+    }
+
+    generateChecklist();
+  </script>
+</body>
+</html>
